@@ -80,7 +80,7 @@ app.get('/notes', (req, res) => {
 
 app.use(express.static(path.join(__dirname, 'public')));
 
-const PORT = process.env.PORT || 8000;
+const PORT = process.env.PORT || 8001;
 app.listen(PORT, function() {
     console.log("App listening on PORT " + PORT);
 });
