@@ -5,7 +5,7 @@
     "node": "12.10.0"
   },
   "description": "Express Note Taker",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
     "start": "node server.js"
   },
