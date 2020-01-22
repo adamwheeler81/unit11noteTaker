@@ -1,12 +1,15 @@
 {
   "name": "note-taker",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "engines": {
+    "node": "12.10.0"
   },
-  "author": "",
+  "description": "Express Note Taker",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Adam Wheeler",
   "license": "ISC",
   "dependencies": {
     "express": "^4.16.4",
